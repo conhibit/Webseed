@@ -5,19 +5,19 @@ on:
       name:
         description: Name of the torrent file
         required: true
-        default: Firefox Setup 102.0
+        default: livegui-amd64-20230101T164658Z.iso
       comment:
         description: Comment
         required: true
-        default: Firefox Setup 102.0 win64 en-US by torrent-webseed-creator
+        default: livegui-amd64-20230101T164658Z.iso by torrent-webseed-creator
       url:
-        description: URL of the file
+        description: https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20230101T164658Z/livegui-amd64-20230101T164658Z.iso
         required: true
-        default: 'https://download-installer.cdn.mozilla.net/pub/firefox/releases/102.0/win64/en-US/Firefox%20Setup%20102.0.exe'
+        default: 'https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20230101T164658Z/livegui-amd64-20230101T164658Z.iso'
       file_name:
         description: File name of the file in the torrent
         required: true
-        default: Firefox Setup 102.0.exe
+        default: https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20230101T164658Z/livegui-amd64-20230101T164658Z.iso
       piece_size:
         description: Piece Size. Use 0 for automatic calculation, or use the recommended piece size on the README.md file
         required: true
